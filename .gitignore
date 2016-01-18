@@ -1,0 +1,4 @@
+# node modules and corresponding files
+node_modules/
+tmp/
+bower_components/

@@ -1,0 +1,211 @@
+body {
+	margin: 0px;
+}
+
+.container-fluid {
+	position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+	font-family: RobotoSlab;
+	background-size: cover;
+	background-image: url(../images/Banner-bg.png);
+	background-color: #0189c3;
+	height: 720px;
+	p {
+		color: white;
+	}
+
+	.login {
+		a {
+			color: white;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 43px;
+		}
+	}
+
+	h1 {
+		text-align: center;
+		color: white;
+		font-size: 80px;
+	}
+
+	h4 {
+		text-align: center;
+		color: white;
+	}
+
+	.btn-primary {
+		border-color: white;
+		background-color:  rgba(0, 0, 0, 0.5);
+		font-size: 18px;
+		font-weight: 400;
+		&:hover {
+			border-color: white;
+		}
+	}
+
+	.manage-rentals-row {
+		padding-top: 30px;
+		p {
+			font-size: 24px;
+			font-weight: 500;
+		}
+	}
+
+	.ppt-manager-button {
+		text-align: right;
+	}
+
+	.renting-out-ppt-row {
+		padding: 35px 0px 55px 0px;
+	}
+
+	.reliable-risk-free-row {
+		 p {
+				font-weight: 300;
+				font-size: 42px;
+				text-align: center;
+			}
+	}
+	.info-row {
+		padding: 10px 55px 10px 55px;
+		margin-top:25px;
+		height: 165px;
+		background-color: rgba(34, 34, 34, 0.1);
+		h4 {
+			text-align: left;
+			font-size: 24px;
+			font-weight: 300;
+		}
+		p {
+			font-size: 16px;
+			font-weight: 300px;
+		}
+	}
+}
+
+.signup {
+	text-align: center;
+	padding-bottom: 60px;
+	a {
+		background-color: #F68121;
+		color: white;
+		font-size: 18px;
+		width: 130px;
+	}
+}
+
+.ppt-manager {
+	background-color: #ebebeb;
+	text-align: center;
+	height: 147px;
+	margin-top: 30px;
+	h5 {
+		font-size: 24px;
+		font-weight: 400;
+		margin-top: 25px;
+	}
+	a {
+		border: 1px solid #F68121;
+		color: #F68121;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 16px;
+		font-weight: 400;
+		margin-top: 20px;
+	}
+}
+
+.how-it-works {
+	h4 {
+		text-align: center;
+		font-size: 36px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+.process {
+}
+
+.dot-left-down {
+	border-left: 3px dotted black;
+	border-bottom : 3px dotted black;
+	margin-left: 13%;
+	width: 74.9%;
+	height: 50px;
+}
+
+.dot-right {
+	border-right: 3px dotted black;
+	margin-left: 13%;
+	width: 74.9%;
+	height: 50px;
+}
+
+.provide-ppt-details {
+	background-image: url(../images/img1.png);
+	height: 100px
+}
+
+.image-common-ppt {
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.how-it-works-process {
+	h5 {
+		font-size: 26px;
+		font-weight: 400;
+	}
+	p {
+		font-size: 16px;
+	}
+}
+
+.trusted-ppt-managers {
+	background-image: url(../images/img2.png);
+	height: 100px;
+	margin-top: 10px;
+}
+
+.select-from-trusted {
+	text-align: right;
+}
+
+.dot-right-down {
+	border-right: 3px dotted black;
+	border-bottom : 3px dotted black;
+	margin-left: 13%;
+	width: 74.9%;
+	height: 50px;
+}
+
+.dot-left {
+	border-left: 3px dotted black;
+	margin-left: 13%;
+	width: 74.9%;
+	height: 50px;
+}
+
+.ppt-manager-gets-tenants {
+	background-image: url(../images/img3.png);
+	height: 100px;
+	margin-top: 10px;
+}
+
+.get-monthly-rent-direct {
+	background-image: url(../images/img4.png);
+	height: 100px;
+	margin-top: 10px;
+}
+
+.manage-ppt-remotly {
+	background-image: url(../images/img5.png);
+	height: 100px;
+	margin-top: 10px;	
+}
